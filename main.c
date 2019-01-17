@@ -50,16 +50,25 @@ int main()
                 scanf("%c", &xx);
                 scanf("%c", &xx);
             }
-            else{
+            else
+            {
                 printf("wutingchewei,shanchushibai,dianjihuichejixu\n");
                 char xx;
                 scanf("%c", &xx);
                 scanf("%c", &xx);
-
             }
         }
         if (code == 3)
         {
+            printf("suoyoucheliangdezuobiaoweizhiruxia\n");
+            for (int i = 0; i < index; i++)
+            {
+                printf("di%dgecheliangdezuobiaoweizhishi(%d,%d)\n", i + 1, arr[i].x, arr[i].y);
+            }
+            printf("dianjihuichejixu\n" );
+            char xx;
+            scanf("%c", &xx);
+            scanf("%c", &xx);
         }
         if (code == 4)
         {
